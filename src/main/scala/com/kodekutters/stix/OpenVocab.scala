@@ -197,20 +197,3 @@ object encryption_algo_ov extends OpenVocab {
   val RSA = "RSA"
   val DSA = "DSA"
 }
-//---------------------------------------------------------------------------
-//-------------------for Relationships---------------------------------------
-//---------------------------------------------------------------------------
-
-// todo not an OpenVocab
-object relationship_type extends OpenVocab {
-  val uses = "uses"
-  val targets = "targets"
-  val indicates = "indicates"
-  val mitigates = "mitigates"
-  val attributed_to = "attributed-to"
-  val variant_of = "variant-of"
-  val duplicate_of = "duplicate-of"
-  val derived_from = "derived-from"
-  val related_to = "related-to"
-  val impersonates = "impersonates"
-}
